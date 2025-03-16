@@ -1,0 +1,29 @@
+.container {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.searchbar input {
+    width: 90%;
+    padding: 8px;
+}
+.searchmap{
+    max-height: 300px;
+    width: 100%;
+    
+    overflow-y: scroll;
+}
+.searchmap span {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.searchmap span:last-child {
+    border-bottom: none;
+}
+
+.searchmap span:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
